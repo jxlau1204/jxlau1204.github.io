@@ -1,17 +1,15 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![jxlau1204](https://img.shields.io/badge/jxlau-github-blue?logo=github)](https://github.com/jxlau1204)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+在天津理工大学担任讲师，硕士研究生导师，已经获得国青C资助，目前与国内多所院校和大厂有科研和实习合作。主要的研究方向有：1.多媒体及多模态分析于理解，情感计算（识别与合成）；2.语音的识别与认知，认知机理的研究；3.人工智能赋能土木工程及分析化学。\
+
+方向是自由的，态度是开放的，可以积极的联系交流与合作。多聊聊没啥坏处~\
 
 #### Contact
+@@ -25,7 +24,7 @@ Phone:13072218157(wechat same)
+此外，如果你篮球，羽毛球，乒乓球感兴趣的同学那就更好了。\
 
-Email: user[at]fas.harvard.edu
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
-
-#### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
-
+#### Motto
+生活和工作总得找个平衡。\
+work life balance\
