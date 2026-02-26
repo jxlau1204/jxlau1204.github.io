@@ -12,4 +12,4 @@
 
 #### Motto
 生活和工作总得找个平衡。\
-work life balance\
+work life balance.\
