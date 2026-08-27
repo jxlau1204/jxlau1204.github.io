@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Noto+Sans+SC:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <style>.network-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}.network-grid article{padding:22px;background:#ece9de;border-top:3px solid #c7ef5a}.network-grid h3{font-size:19px;margin:0 0 10px}.network-grid p{font-size:15px;color:#4c554f;margin:0}.portrait{height:340px;border:1px solid var(--ink);margin:0;overflow:hidden;background:#e9e6da;position:relative}.portrait img{width:100%;height:100%;object-fit:cover;object-position:64% 52%;display:block}.portrait figcaption{position:absolute;bottom:0;left:0;right:0;padding:12px 16px;background:linear-gradient(transparent,#0a160fdd);color:#fff;font:11px "DM Mono";letter-spacing:.08em}@media(max-width:700px){.network-grid{grid-template-columns:1fr}.portrait{height:280px}}</style>
+    <style>main{display:flex;flex-direction:column}.network-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}.network-grid article{padding:22px;background:#ece9de;border-top:3px solid #c7ef5a}.network-grid h3{font-size:19px;margin:0 0 10px}.network-grid p{font-size:15px;color:#4c554f;margin:0}.portrait{height:340px;border:1px solid var(--ink);margin:0;overflow:hidden;background:#e9e6da;position:relative}.portrait img{width:100%;height:100%;object-fit:cover;object-position:64% 52%;display:block}.portrait figcaption{position:absolute;bottom:0;left:0;right:0;padding:12px 16px;background:linear-gradient(transparent,#0a160fdd);color:#fff;font:11px "DM Mono";letter-spacing:.08em}#about{order:1}#research{order:2}#network{order:3}#gallery{order:4}#publications{order:5}.publication-list{margin-top:36px;border-top:1px solid var(--ink)}.publication-list article{padding:21px 0;border-bottom:1px solid var(--line)}.publication-list b{font:12px "DM Mono";color:#65930d}.publication-list h3{font-size:18px;line-height:1.45;margin:6px 0}.publication-list p{font-size:14px;color:var(--muted);margin:0}.publication-list a{color:var(--ink)}@media(max-width:700px){.network-grid{grid-template-columns:1fr}.portrait{height:280px}}</style>
   </head>
   <body>
     <header class="site-header">
@@ -44,12 +44,12 @@
       </section>
 
       <section id="about" class="section about">
-        <p class="section-label">01 / <span data-i18n="navAbout">关于</span></p>
-        <div><h2 data-i18n="aboutTitle">让机器更好地理解人的情感</h2><p data-i18n="aboutText">我任职于天津理工大学计算机学院，致力于情感智能相关理论与应用研究。研究工作结合人工智能、语音信号处理与多媒体分析，探索自然、可靠且具解释性的感知系统。</p></div>
+        <p class="section-label">01 / 个人介绍</p>
+        <div><h2>教育、研究与指导</h2><p>刘佳星，毕业于天津大学智能与计算学部，师从王龙标教授、党建武教授。现任天津理工大学计算机学院硕士生导师，主要从事情感计算、多模态情感识别、多媒体分析与语音情感识别研究。欢迎有志于相关方向的学生与同行联系交流。</p></div>
       </section>
 
       <section id="research" class="section">
-        <p class="section-label">02 / <span data-i18n="navResearch">研究</span></p>
+        <p class="section-label">01.1 / 研究方向</p>
         <h2 data-i18n="researchTitle">研究兴趣</h2>
         <div class="research-grid">
           <article><b>01</b><h3 data-i18n="r1Title">多模态情感识别</h3><p data-i18n="r1Text">融合语言、语音、视觉等异构信号，刻画复杂情感状态。</p></article>
@@ -59,12 +59,12 @@
       </section>
 
       <section id="publications" class="section publications">
-        <p class="section-label">03 / <span data-i18n="navPublications">论文</span></p>
-        <div class="publication-intro"><h2 data-i18n="pubTitle">发表论文</h2><p data-i18n="pubText">完整、实时更新的论文记录请参阅 Google Scholar 个人档案。</p><p><a href="https://ieeexplore.ieee.org/document/11595524" target="_blank" rel="noreferrer" data-i18n="newPublication">A CuTCPP(Fe) nanozyme family-based colorimetric sensor array with HC-MoE-assisted qualitative-quantitative decoding for antioxidant analysis ↗</a></p><a class="text-link" href="https://scholar.google.com/citations?user=twIbFzUAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noreferrer" data-i18n="viewScholar">查看论文列表 ↗</a></div>
+        <p class="section-label">04 / <span data-i18n="navPublications">论文</span></p>
+        <div class="publication-intro"><h2>代表性论文</h2><p>以下为部分代表作；完整、实时更新的论文记录请参阅 Google Scholar 个人档案。</p><div class="publication-list"><article><b>2026 · IEEE Xplore</b><h3><a href="https://ieeexplore.ieee.org/document/11595524" target="_blank" rel="noreferrer">A CuTCPP(Fe) nanozyme family-based colorimetric sensor array with HC-MoE-assisted qualitative-quantitative decoding for antioxidant analysis ↗</a></h3></article><article><b>2021 · INTERSPEECH</b><h3>Time-Frequency Representation Learning with Graph Convolutional Network for Dialogue-Level Speech Emotion Recognition</h3><p>Jiaxing Liu et al. · 第一作者</p></article><article><b>2021 · ICASSP</b><h3>Multimodal Emotion Recognition with Capsule Graph Convolutional based Representation Fusion</h3><p>Jiaxing Liu et al. · 第一作者</p></article><article><b>2020 · INTERSPEECH</b><h3>Temporal Attention Convolutional Network for Speech Emotion Recognition with Latent Representation</h3><p>Jiaxing Liu et al. · 第一作者</p></article><article><b>2020 · ICASSP</b><h3>Speech Emotion Recognition with Local-global Aware Deep Representation Learning</h3><p>Jiaxing Liu et al. · 第一作者</p></article><article><b>2019 · ICONIP</b><h3>Time-Frequency Deep Representation Learning for Speech Emotion Recognition Integrating Self-attention</h3><p>Jiaxing Liu et al. · 第一作者</p></article><article><b>2018 · Remote Sensing</b><h3>Synthetic Aperture Radar Image Segmentation with Reaction Diffusion Level Set Evolution Equation in an Active Contour Model</h3><p>Jiaxing Liu et al. · 第一作者</p></article></div><a class="text-link" href="https://scholar.google.com/citations?user=twIbFzUAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noreferrer">查看完整 Google Scholar 列表 ↗</a></div>
       </section>
 
       <section id="network" class="section">
-        <p class="section-label">04 / <span data-i18n="navNetwork">合作与发展</span></p>
+        <p class="section-label">02 / <span data-i18n="navNetwork">合作与发展</span></p>
         <h2 data-i18n="networkTitle">为学术成长与职业发展提供支持</h2>
         <p class="intro" data-i18n="networkIntro">依托跨机构学习、科研与产业实践经历，我乐于为学生和合作者提供深造、科研协作与职业发展的交流建议，并在合适的情况下协助建立专业联系。</p>
         <div class="network-grid">
@@ -75,7 +75,7 @@
       </section>
 
       <section id="gallery" class="section">
-        <p class="section-label">05 / 照片墙</p>
+        <p class="section-label">03 / 照片墙</p>
         <h2>学术与生活瞬间</h2>
         <div style="min-height:235px;border:1px dashed #9ca098;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:#ece9de"><span style="font:38px 'DM Mono';color:#6c9c15">＋</span><p style="max-width:460px;color:#6d706b;font-size:16px;margin:8px 20px">照片墙即将更新，记录教学、学术交流与研究实践中的重要瞬间。</p></div>
       </section>
